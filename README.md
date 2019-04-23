@@ -1,6 +1,6 @@
 ## Project Loaction
 
-[Project](/flutter-desktop-embedding/project)
+[Explore Project](/flutter-desktop-embedding/project)
 
 For now the flutter desktop needs the prebuilt binares and has to be nested inside `flutter-desktop-embedding`.
 
