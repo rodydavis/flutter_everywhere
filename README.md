@@ -48,6 +48,8 @@ On Windows:
 $env:ENABLE_FLUTTER_DESKTOP="true"
 ```
 
+https://gist.github.com/ajinasokan/4a0340c07f36200d487fb2b22b4996db
+
 ### Build and Run
 
 You can now run using the `flutter` tool as you would for mobile. In the
