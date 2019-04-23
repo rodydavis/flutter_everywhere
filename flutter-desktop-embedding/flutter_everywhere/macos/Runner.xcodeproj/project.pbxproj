@@ -443,7 +443,7 @@
 				FRAMEWORK_SEARCH_PATHS = $SYMROOT/flutter_framework;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.FlutterEmbedderMacExample.FlutterDesktopExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossmedia-llc.unifyconnect.desktop";
 				PRODUCT_NAME = "Flutter Desktop Example";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner-Bridging-Header.h";
@@ -464,7 +464,7 @@
 				FRAMEWORK_SEARCH_PATHS = $SYMROOT/flutter_framework;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.FlutterEmbedderMacExample.FlutterDesktopExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossmedia-llc.unifyconnect.desktop";
 				PRODUCT_NAME = "Flutter Desktop Example";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner-Bridging-Header.h";
