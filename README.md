@@ -1,3 +1,7 @@
+## Project Loaction
+
+https://github.com/AppleEducate/flutter_everywhere/tree/master/flutter-desktop-embedding/flutter_everywhere
+
 # Desktop Flutter Example
 
 This application shows a minimal example of how to use the [desktop
