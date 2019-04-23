@@ -1,4 +1,4 @@
-# Desktop Flutter Example
+# Desktop Flutter Project
 
 This application shows a minimal example of how to use the [desktop
 libraries](https://github.com/flutter/flutter/wiki/Desktop-shells) to build
@@ -25,7 +25,7 @@ the runner. If you later upgrade Flutter, or if you distribute the binary
 version to other people building their applications with different versions of
 Flutter, it *will* break.)
 
-## Building and Running the Example
+## Building and Running the Project
 
 Ensure that you are on a recent version of the [Flutter master
 channel](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels).
