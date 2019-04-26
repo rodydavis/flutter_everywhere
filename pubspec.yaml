@@ -4,7 +4,6 @@ description: An example project for flutter-desktop-embedding.
 dependencies:
   flutter:
     sdk: flutter
-  unify_api: ^1.0.1
 
   cupertino_icons: ^0.1.0
 
