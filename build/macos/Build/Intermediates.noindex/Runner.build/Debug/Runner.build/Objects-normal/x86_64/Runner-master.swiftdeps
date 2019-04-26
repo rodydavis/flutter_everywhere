@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "ef1a66d92ffd7564f245df3b218ecb83"
+build_time: [1556055033, 521268000]
+inputs:
+  "/Users/rodydavis/Development/github/flutter_everywhere/flutter-desktop-embedding/flutter_everywhere/macos/ExampleWindow.swift": [1556041092, 131182075]
+  "/Users/rodydavis/Development/github/flutter_everywhere/flutter-desktop-embedding/flutter_everywhere/macos/AppDelegate.swift": [1556041092, 130394697]
