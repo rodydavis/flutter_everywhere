@@ -1,5 +1,5 @@
 name: project
-description: An example project for flutter-desktop-embedding.
+description: An example shared project for flutter-desktop-embedding and mobile.
 
 dependencies:
   flutter:
