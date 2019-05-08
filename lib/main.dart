@@ -16,10 +16,11 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
- _setTargetPlatformForDesktop();
+  _setTargetPlatformForDesktop();
   runApp(new MyApp());
 }
 
