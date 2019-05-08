@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rodydavis/Development/github/flutter_everywhere/build/app/intermediates/res/merged/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    }
+                }
+            ]
+        }
+    ]
+}

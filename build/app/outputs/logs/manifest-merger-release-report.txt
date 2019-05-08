@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+	package
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:9:5-32:19
+	android:label
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:11:9-32
+	android:icon
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#com.example.project.MainActivity
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodydavis/Development/github/flutter_everywhere/android/app/src/main/AndroidManifest.xml

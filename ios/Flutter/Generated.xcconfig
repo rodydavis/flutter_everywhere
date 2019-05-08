@@ -4,4 +4,4 @@ FLUTTER_APPLICATION_PATH=/Users/rodydavis/Development/github/flutter_everywhere
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
-FLUTTER_FRAMEWORK_DIR=/Users/rodydavis/Development/flutter/bin/cache/artifacts/engine/ios
+FLUTTER_FRAMEWORK_DIR=/Users/rodydavis/Development/flutter/bin/cache/artifacts/engine/ios-release
