@@ -7,21 +7,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web: any
-  flutter_web_ui: any
+  # flutter_web: any
+  # flutter_web_ui: any
   cupertino_icons: ^0.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: any
-  build_web_compilers: any
+  # build_runner: any
+  # build_web_compilers: any
 
 dependency_overrides:
-  flutter_web:
-    path: packages/flutter_web
-  flutter_web_ui:
-    path: packages/flutter_web_ui
+  # flutter_web:
+  #   path: packages/flutter_web
+  # flutter_web_ui:
+  #   path: packages/flutter_web_ui
 
 flutter:
   uses-material-design: true
