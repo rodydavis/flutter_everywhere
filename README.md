@@ -6,15 +6,12 @@ The goal of this repo is to have everything you need to start with flutter deskt
 
 Fork this project to get started! :)
 
-# About Desktop Embedding for Flutter
+## Getting Started - Mobile
 
-This project was originally created to develop Windows, macOS, and Linux
-implementations of [Flutter](https://github.com/flutter/flutter). That work has
-since become part of the
-[Flutter engine repository](https://github.com/flutter/engine), and this
-project is now just an example of, and test environment for, building
-applications using those libraries.
+1. Run `flutter build ios` || `flutter build apk`
 
-For information about the shells themselves, see the [Flutter page about
-desktop support](https://github.com/flutter/flutter/wiki/Desktop-shells).
+## Getting Started - Desktop
 
+1. Update your $PATH `export ENABLE_FLUTTER_DESKTOP=true`
+
+2. Run `flutter run -d macos` || `flutter run -d windows` || `flutter run -d linux`
