@@ -14,4 +14,6 @@ Fork this project to get started! :)
 
 1. Update your $PATH `export ENABLE_FLUTTER_DESKTOP=true`
 
-2. Run `flutter run -d macos` || `flutter run -d windows` || `flutter run -d linux`
+2. Run ` flutter precache`
+
+3. Run `flutter run -d macos` || `flutter run -d windows` || `flutter run -d linux`
