@@ -6,8 +6,15 @@
     "configurations": [
         {
             "name": "Flutter",
+            "type": "dart",
             "request": "launch",
-            "type": "dart"
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Flutter (Web)",
+            "request": "launch",
+            "type": "dart",
+            "program": "website/lib/main.dart"
         }
     ]
 }

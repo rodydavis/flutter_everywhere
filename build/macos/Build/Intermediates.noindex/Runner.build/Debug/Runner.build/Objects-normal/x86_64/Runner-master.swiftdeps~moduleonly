@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "780d13a31369d4059c8218cf4d4425c9"
-build_time: [1557322787, 377380000]
-inputs:
-  "/Users/rodydavis/Development/github/flutter_everywhere/macos/ExampleWindow.swift": [1557308666, 0]
-  "/Users/rodydavis/Development/github/flutter_everywhere/macos/AppDelegate.swift": [1557308666, 0]
