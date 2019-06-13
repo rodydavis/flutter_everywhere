@@ -370,9 +370,11 @@ packages:
   shared:
     dependency: "direct main"
     description:
-      path: "../shared"
-      relative: true
-    source: path
+      path: shared
+      ref: dev
+      resolved-ref: c2a4c792bdda37b910b7624c36ca01968058ea12
+      url: "https://github.com/AppleEducate/flutter_everywhere"
+    source: git
     version: "0.0.1"
   shelf:
     dependency: transitive
