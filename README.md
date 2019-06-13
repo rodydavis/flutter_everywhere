@@ -44,7 +44,7 @@ Flutter for Web is provided by `flutter_web`. For Issues and Setup Info refer to
 
 ### Core
 
-This is the core part of your app that can be shared between web, mobile and CLI version of your app. This part cannot depend on the Flutter SDK. 
+This is the core part of your app that can be shared between web, mobile and CLI version of your app. This part cannot depend on the Flutter SDK.
 
 Use this for constants, classes, abstract classes and utilites.
 
