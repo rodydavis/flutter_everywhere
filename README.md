@@ -20,6 +20,8 @@ You need to be on the flutter master or dev channel for this project to work!
 
 ## Getting Started - Desktop
 
+The desktop support is provided by `flutter-desktop-embedding`. For any issues and setup instructions please refer to the docs [here](https://github.com/google/flutter-desktop-embedding).
+
 1. `cd desktop`
 
 2. Update your $PATH `export ENABLE_FLUTTER_DESKTOP=true`
@@ -30,7 +32,7 @@ You need to be on the flutter master or dev channel for this project to work!
 
 ## Getting Started - Web
 
-Provided by `flutter_web` and this will enable you to deploy your flutter app to the web! Docs [here](https://github.com/flutter/flutter_web)
+Flutter for Web is provided by `flutter_web`. For Issues and Setup Info refer to the docs [here](https://github.com/flutter/flutter_web).
 
 1. `cd web`
 
@@ -42,7 +44,9 @@ Provided by `flutter_web` and this will enable you to deploy your flutter app to
 
 ### Core
 
-This is the core part of your app that can be shared between web, mobile and CLI version of your app. This part cannot depend on the Flutter SDK
+This is the core part of your app that can be shared between web, mobile and CLI version of your app. This part cannot depend on the Flutter SDK. 
+
+Use this for constants, classes, abstract classes and utilites.
 
 1. Run `cd core`
 
@@ -50,6 +54,6 @@ This is the core part of your app that can be shared between web, mobile and CLI
 
 ### Shared
 
-This is the part of the app that can share everything used in the Flutter SDK. Like Models, Themes and Locale..
+This is the part of the app that can share everything used in the Flutter SDK. Like Models, Themes and Locale.
 
 1. Run `cd shared`
