@@ -30,6 +30,8 @@ You need to be on the flutter master or dev channel for this project to work!
 
 ## Getting Started - Web
 
+Provided by `flutter_web` and this will enable you to deploy your flutter app to the web! Docs [here](https://github.com/flutter/flutter_web)
+
 1. `cd web`
 
 2. Update your $PATH `export FLUTTER_WEB=true`
