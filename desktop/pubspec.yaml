@@ -1,0 +1,21 @@
+name: desktop
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  shared:
+    path: ../shared/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.7.0
+
+flutter:
+  uses-material-design: true
+
