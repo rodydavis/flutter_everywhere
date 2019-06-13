@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared/shared.dart';
 
-import 'src/index.dart';
+import 'ui/index.dart';
 
 void main() => runApp(MyApp());
 

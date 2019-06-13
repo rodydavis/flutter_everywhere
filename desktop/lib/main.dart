@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
 import 'package:provider/provider.dart';
 
-import 'src/index.dart';
+import 'ui/index.dart';
 
 void main() {
   _setTargetPlatformForDesktop();
