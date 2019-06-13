@@ -5,13 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter",
+            "name": "Flutter (mobile)",
             "type": "dart",
             "request": "launch",
-            "program": "lib/main.dart"
+            "program": "mobile/lib/main.dart"
         },
         {
-            "name": "Flutter (Web)",
+            "name": "Flutter (mobile)",
+            "type": "dart",
+            "request": "launch",
+            "program": "desktop/lib/main.dart"
+        },
+        {
+            "name": "Flutter (web)",
             "request": "launch",
             "type": "dart",
             "program": "website/lib/main.dart"
