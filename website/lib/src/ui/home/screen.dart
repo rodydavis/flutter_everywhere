@@ -1,5 +1,5 @@
 import 'package:flutter_web/material.dart';
-import 'package:shared/shared.dart';
+import 'package:shared_core/shared.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);

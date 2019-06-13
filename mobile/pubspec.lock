@@ -81,6 +81,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0+1"
   quiver:
     dependency: transitive
     description:
@@ -92,6 +99,13 @@ packages:
     dependency: "direct main"
     description:
       path: "../shared"
+      relative: true
+    source: path
+    version: "0.0.1"
+  shared_core:
+    dependency: transitive
+    description:
+      path: "../core"
       relative: true
     source: path
     version: "0.0.1"

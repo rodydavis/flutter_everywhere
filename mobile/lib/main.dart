@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:shared/shared.dart';
+
 import 'src/index.dart';
 
 void main() => runApp(MyApp());
@@ -6,12 +9,15 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+    return MultiProvider(
+        providers: [
+          ListenableProvider.value(value: CounterState()..init()),
+        ],
+        child: MaterialApp(
+          title: Strings.title,
+          theme: Themes.light,
+          darkTheme: Themes.dark,
+          home: HomeScreen(),
+        ));
   }
 }

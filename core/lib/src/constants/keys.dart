@@ -1,0 +1,3 @@
+class Keys {
+  Keys._();
+}

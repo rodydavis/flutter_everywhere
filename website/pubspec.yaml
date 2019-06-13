@@ -8,7 +8,7 @@ environment:
 dependencies:
   flutter_web: any
   flutter_web_ui: any
-  shared: any
+  shared_core: any
 
 dev_dependencies:
   build_runner: ^1.4.0
@@ -24,10 +24,10 @@ dependency_overrides:
     git:
       url: https://github.com/flutter/flutter_web
       path: packages/flutter_web_ui
-  shared:
+  shared_core:
     git:
       url: https://github.com/AppleEducate/flutter_everywhere
-      path: shared
+      path: core
       ref: dev
 # TODO: Change `url` to where you will be storing the project
 # TODO: Change `ref` to which branch you are on

@@ -8,11 +8,32 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  json_annotation: ^2.4.0
-  
+  flutter:
+    sdk: flutter
+  shared_core:
+    path: ../core/
+
 dev_dependencies:
-  json_serializable: ^3.0.0
-  build_runner: ^1.5.2
   pedantic: ^1.7.0
+  flutter_test:
+    sdk: flutter
 
 flutter:
+  # assets:
+  #   - ../assets/images/
+
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: ../assets/fonts/Roboto/Roboto-Thin.ttf
+  #         weight: 100
+  #       - asset: ../assets/fonts/Roboto/Roboto-Light.ttf
+  #         weight: 300
+  #       - asset: ../assets/fonts/Roboto/Roboto-Regular.ttf
+  #         weight: 400
+  #       - asset: ../assets/fonts/Roboto/Roboto-Medium.ttf
+  #         weight: 500
+  #       - asset: ../assets/fonts/Roboto/Roboto-Bold.ttf
+  #         weight: 700
+  #       - asset: ../assets/fonts/Roboto/Roboto-Black.ttf
+  #         weight: 900
