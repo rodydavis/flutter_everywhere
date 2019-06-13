@@ -362,12 +362,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.3+2"
-  shared:
+  shared_core:
     dependency: "direct main"
     description:
-      path: shared
+      path: core
       ref: dev
-      resolved-ref: "97d2ff3227d1432550c6ce68049425c7682cd97e"
+      resolved-ref: "14163e5de4b6e831ef0333c8ac2eeb4839e24ccc"
       url: "https://github.com/AppleEducate/flutter_everywhere"
     source: git
     version: "0.0.1"
