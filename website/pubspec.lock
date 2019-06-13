@@ -367,7 +367,7 @@ packages:
     description:
       path: shared
       ref: dev
-      resolved-ref: "40b220b5ea12bd37adf8f2bccc2651bb39624500"
+      resolved-ref: "97d2ff3227d1432550c6ce68049425c7682cd97e"
       url: "https://github.com/AppleEducate/flutter_everywhere"
     source: git
     version: "0.0.1"
