@@ -10,6 +10,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   shared:
     path: ../shared/
+  provider: ^3.0.0+1
 
 dev_dependencies:
   flutter_test:

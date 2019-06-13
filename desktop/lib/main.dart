@@ -1,9 +1,11 @@
 import 'dart:io';
 
-import 'package:desktop/src/index.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shared/shared.dart';
+import 'package:provider/provider.dart';
+
+import 'src/index.dart';
 
 void main() {
   _setTargetPlatformForDesktop();
@@ -27,11 +29,15 @@ void _setTargetPlatformForDesktop({TargetPlatform target}) {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: Strings.title,
-      theme: Themes.light,
-      darkTheme: Themes.dark,
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+    return MultiProvider(
+        providers: [
+          ListenableProvider.value(value: CounterState()..init()),
+        ],
+        child: MaterialApp(
+          title: Strings.title,
+          theme: Themes.light,
+          darkTheme: Themes.dark,
+          home: HomeScreen(),
+        ));
   }
 }

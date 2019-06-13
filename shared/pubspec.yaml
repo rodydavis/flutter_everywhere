@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   shared_core:
     path: ../core/
-  
+
 dev_dependencies:
   pedantic: ^1.7.0
   flutter_test:
