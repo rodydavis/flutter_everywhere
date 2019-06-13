@@ -162,6 +162,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.9"
+  flutter:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_web:
     dependency: "direct main"
     description:
@@ -284,7 +289,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.7"
+    version: "1.1.6"
   mime:
     dependency: transitive
     description:
@@ -362,6 +367,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.3+2"
+  shared:
+    dependency: "direct main"
+    description:
+      path: "../shared"
+      relative: true
+    source: path
+    version: "0.0.1"
   shelf:
     dependency: transitive
     description:
@@ -376,6 +388,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3"
+  sky_engine:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.99"
   source_maps:
     dependency: transitive
     description:

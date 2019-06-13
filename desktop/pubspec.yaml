@@ -8,6 +8,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
+  shared:
+    path: ../shared/
 
 dev_dependencies:
   flutter_test:
