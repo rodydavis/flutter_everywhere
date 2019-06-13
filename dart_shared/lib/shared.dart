@@ -1,9 +1,9 @@
-library shared_core;
+library dart_shared;
 
 export 'src/index.dart';
 
-class Shared {
-  Shared._();
+class DartShared {
+  DartShared._();
 
   static bool testMethod() {
     return true;

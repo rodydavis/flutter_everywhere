@@ -36,11 +36,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+  dart_shared:
+    dependency: transitive
+    description:
+      path: "../dart_shared"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_shared:
+    dependency: "direct main"
+    description:
+      path: "../flutter_shared"
+      relative: true
+    source: path
+    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -95,20 +109,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.3"
-  shared:
-    dependency: "direct main"
-    description:
-      path: "../shared"
-      relative: true
-    source: path
-    version: "0.0.1"
-  shared_core:
-    dependency: transitive
-    description:
-      path: "../core"
-      relative: true
-    source: path
-    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

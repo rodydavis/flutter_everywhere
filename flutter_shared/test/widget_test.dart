@@ -7,12 +7,12 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:shared/shared.dart';
+import 'package:flutter_shared/shared.dart';
 
 void main() {
   test('Counter increments smoke test', (_) {
     // Verify that our counter starts at 0.
-    expect(Shared.incrementValue(1), 2);
-    expect(Shared.decrementValue(1), 0);
+    expect(DartShared.incrementValue(1), 2);
+    expect(DartShared.decrementValue(1), 0);
   });
 }

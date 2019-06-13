@@ -1,4 +1,4 @@
-name: shared
+name: flutter_shared
 description: 
 version: 0.0.1
 author:
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_core:
-    path: ../core/
+  dart_shared:
+    path: ../dart_shared/
 
 dev_dependencies:
   pedantic: ^1.7.0

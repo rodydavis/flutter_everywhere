@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shared/shared.dart';
+import 'package:flutter_shared/shared.dart';
 
 import 'ui/index.dart';
 

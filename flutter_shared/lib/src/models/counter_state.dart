@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:shared_core/shared.dart';
+import 'package:flutter_shared/shared.dart';
 
 class CounterState extends ChangeNotifier {
   int _counterValue = 0;
   int get counterValue => _counterValue;
 
   void increment() {
-    _counterValue = Shared.incrementValue(_counterValue);
+    _counterValue = DartShared.incrementValue(_counterValue);
     notifyListeners();
   }
 
   void decrement() {
-    _counterValue = Shared.decrementValue(_counterValue);
+    _counterValue = DartShared.decrementValue(_counterValue);
     notifyListeners();
   }
 

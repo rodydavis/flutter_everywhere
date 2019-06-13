@@ -8,8 +8,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  shared:
-    path: ../shared/
+  flutter_shared:
+    path: ../flutter_shared/
   provider: ^3.0.0+1
 
 dev_dependencies:
