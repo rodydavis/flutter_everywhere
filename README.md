@@ -1,6 +1,8 @@
+# Flutter Everywhere
+
 [![Codemagic build status](https://api.codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5cd2d9cbc959181f99f3bc4a/status_badge.svg)](https://codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5cd2d9cbc959181f99f3bc4a/latest_build)
 
-## Flutter Everywhere
+## Overview
 
 The goal of this repo is to have everything you need to start with flutter desktop + mobile simply by forking the project. This will no longer be necessary once `flutter create` supports desktop and web.
 
