@@ -2,6 +2,8 @@
 
 A new Flutter Desktop project.
 
+The desktop support is provided by Flutter Desktop Embeeding. For any issues and setup instructions please refer to the docs [here](https://github.com/google/flutter-desktop-embedding).
+
 ## Getting Started
 
 - Update Flutter `flutter channel master; flutter upgrade`
