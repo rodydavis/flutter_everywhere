@@ -28,6 +28,6 @@ dependency_overrides:
     git:
       url: https://github.com/AppleEducate/flutter_everywhere
       path: dart_shared
-      ref: dev
+      ref: dev-naming
 # TODO: Change `url` to where you will be storing the project
 # TODO: Change `ref` to which branch you are on

@@ -148,6 +148,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.16.0"
+  dart_shared:
+    dependency: "direct main"
+    description:
+      path: dart_shared
+      ref: dev-naming
+      resolved-ref: "1e3598a91f73ad1a95ed8c0fd2f046994c599d6d"
+      url: "https://github.com/AppleEducate/flutter_everywhere"
+    source: git
+    version: "0.0.1"
   dart_style:
     dependency: transitive
     description:
@@ -362,15 +371,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.3+2"
-  shared_core:
-    dependency: "direct main"
-    description:
-      path: core
-      ref: dev
-      resolved-ref: "138a8e6eca39e191f9ab51e4e4586a58d2fff9d5"
-      url: "https://github.com/AppleEducate/flutter_everywhere"
-    source: git
-    version: "0.0.1"
   shelf:
     dependency: transitive
     description:
