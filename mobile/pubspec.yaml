@@ -18,3 +18,22 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - ../assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: ../assets/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: ../assets/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: ../assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: ../assets/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: ../assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: ../assets/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
