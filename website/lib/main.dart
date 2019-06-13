@@ -1,4 +1,4 @@
-import 'package:project_web/ui/home/index.dart';
+import 'src/ui/home/index.dart';
 import 'package:flutter_web/material.dart';
 
 void main() => runApp(MyApp());
@@ -7,12 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Ampstor',
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
