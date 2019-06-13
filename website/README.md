@@ -12,8 +12,6 @@ Copy `/website/build/` -> `/docs/` to update you Github Pages (or Firebase Hosti
 
 - Debug Mode: `flutter packages global run webdev serve`
 
-- Flutter for Web: [Info Here](https://github.com/flutter/flutter_web)
-
 ## Assets
 
 Assets must be placed [here](/website/web/assets/)!
