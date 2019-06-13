@@ -91,7 +91,7 @@ packages:
       name: build_web_compilers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
   built_collection:
     dependency: transitive
     description:
@@ -162,11 +162,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.9"
-  flutter:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
   flutter_web:
     dependency: "direct main"
     description:
@@ -289,7 +284,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6"
+    version: "1.1.7"
   mime:
     dependency: transitive
     description:
@@ -372,7 +367,7 @@ packages:
     description:
       path: shared
       ref: dev
-      resolved-ref: c2a4c792bdda37b910b7624c36ca01968058ea12
+      resolved-ref: "40b220b5ea12bd37adf8f2bccc2651bb39624500"
       url: "https://github.com/AppleEducate/flutter_everywhere"
     source: git
     version: "0.0.1"
@@ -390,11 +385,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3"
-  sky_engine:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.99"
   source_maps:
     dependency: transitive
     description:

@@ -11,7 +11,7 @@
             "program": "mobile/lib/main.dart"
         },
         {
-            "name": "Flutter (mobile)",
+            "name": "Flutter (desktop)",
             "type": "dart",
             "request": "launch",
             "program": "desktop/lib/main.dart"
