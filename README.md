@@ -6,6 +6,10 @@ The goal of this repo is to have everything you need to start with flutter deskt
 
 Fork this project or click 'Use Template' to get started! :)
 
+You need to be on the flutter master or dev channel for this project to work!
+
+- Update Flutter `flutter channel master; flutter upgrade`
+
 ## Getting Started - Mobile
 
 1. `cd mobile`
@@ -26,7 +30,9 @@ Fork this project or click 'Use Template' to get started! :)
 
 1. `cd web`
 
-2. Run `flutter packages global run webdev serve`
+2. Update your $PATH `export FLUTTER_WEB=true`
+
+3. Run `flutter packages global run webdev serve`
 
 ## Getting Started - Shared
 
