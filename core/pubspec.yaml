@@ -1,4 +1,4 @@
-name: shared
+name: shared_core
 description: 
 version: 0.0.1
 author:
@@ -8,14 +8,11 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-  shared_core:
-    path: ../core/
+  json_annotation: ^2.4.0
   
 dev_dependencies:
+  json_serializable: ^3.0.0
+  build_runner: ^1.5.2
   pedantic: ^1.7.0
-  flutter_test:
-    sdk: flutter
 
 flutter:

@@ -95,6 +95,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  shared_core:
+    dependency: transitive
+    description:
+      path: "../core"
+      relative: true
+    source: path
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

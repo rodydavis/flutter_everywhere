@@ -24,10 +24,10 @@ dependency_overrides:
     git:
       url: https://github.com/flutter/flutter_web
       path: packages/flutter_web_ui
-  shared:
+  shared_core:
     git:
       url: https://github.com/AppleEducate/flutter_everywhere
-      path: shared
+      path: shared_core
       ref: dev
 # TODO: Change `url` to where you will be storing the project
 # TODO: Change `ref` to which branch you are on
