@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:desktop/src/index.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:shared/shared.dart';
 
 void main() {
   _setTargetPlatformForDesktop();
@@ -27,10 +28,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: Strings.title,
+      theme: Themes.light,
+      darkTheme: Themes.dark,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
