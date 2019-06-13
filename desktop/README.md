@@ -2,7 +2,7 @@
 
 A new Flutter Desktop project.
 
-The desktop support is provided by Flutter Desktop Embedding. For any issues and setup instructions please refer to the docs [here](https://github.com/google/flutter-desktop-embedding).
+The desktop support is provided by `flutter-desktop-embedding`. For any issues and setup instructions please refer to the docs [here](https://github.com/google/flutter-desktop-embedding).
 
 ## Getting Started
 
