@@ -54,6 +54,6 @@ Use this for constants, classes, abstract classes and utilites.
 
 ### Shared
 
-This is the part of the app that can share everything used in the Flutter SDK. Like Models, Themes and Locale.
+This is the part of the app that can share everything used in the Flutter SDK. Like Models, Themes and Locale. Shared inclues core.
 
 1. Run `cd shared`
