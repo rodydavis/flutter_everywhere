@@ -36,8 +36,18 @@ You need to be on the flutter master or dev channel for this project to work!
 
 3. Run `flutter packages global run webdev serve`
 
-## Getting Started - Shared
+## Getting Started - Shared and Core
 
-1. Run `cd shared`
+### Core
+
+This is the core part of your app that can be shared between web, mobile and CLI version of your app. This part cannot depend on the Flutter SDK
+
+1. Run `cd core`
 
 2. Run  `flutter packages pub run build_runner watch  —delete-conflicting-outputs`
+
+### Shared
+
+This is the part of the app that can share everything used in the Flutter SDK. Like Models, Themes and Locale..
+
+1. Run `cd shared`

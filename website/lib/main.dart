@@ -1,4 +1,5 @@
 import 'package:flutter_web/material.dart';
+import 'package:shared_core/shared.dart';
 
 import 'src/index.dart';
 
