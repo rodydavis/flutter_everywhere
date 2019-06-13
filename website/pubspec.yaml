@@ -26,5 +26,6 @@ dependency_overrides:
       path: packages/flutter_web_ui
   shared:
     git:
-      url: https://github.com/AppleEducate/shared
+      url: https://github.com/AppleEducate/flutter_everywhere
       path: shared
+      ref: dev
