@@ -1,7 +1,7 @@
 import 'package:flutter_everywhere/data/models/counter.dart';
 import 'package:shelf/shelf.dart' as shelf;
 
-import 'response.dart';
+import '../response.dart';
 
 class CounterController implements ResponseImpl {
   const CounterController();

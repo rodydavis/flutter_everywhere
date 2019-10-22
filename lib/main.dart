@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'data/models/index.dart';
 import 'plugins/desktop/desktop.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  CounterModel _counter = CounterModel();
 
   void _incrementCounter() {
     setState(() {
@@ -58,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter++;
+      _counter.add(1);
     });
   }
 

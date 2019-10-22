@@ -13,9 +13,8 @@ class CounterCommand extends Command {
   CounterCommand() {
     // [argParser] is automatically created by the parent class.
     // argParser.addFlag('all', abbr: 'a');
-    argParser..addOption('add', abbr: 'a');
-    argParser..addOption('remove', abbr: 'r');
-    argParser..addOption('reset', abbr: 'c');
+    argParser..addOption('add', abbr: 'a', defaultsTo: '0');
+    argParser..addOption('remove', abbr: 'r', defaultsTo: '0');
   }
 
   // [run] may also return a Future.
@@ -25,20 +24,11 @@ class CounterCommand extends Command {
     final _counter = CounterModel();
     stderr.writeln('Counter Value.. ${_counter.value}');
     final _add = argResults['add'];
-    if (_add != null) {
-      stderr.writeln('Adding..$_add');
-      _counter.set(int.tryParse(_add));
-    }
+    stderr.writeln('Adding..$_add');
+    _counter.add(int.tryParse(_add));
     final _remove = argResults['remove'];
-    if (_remove != null) {
-      stderr.writeln('Removing..$_remove');
-      _counter.set(int.tryParse(_remove));
-    }
-    final _reset = argResults['reset'];
-    if (_reset != null) {
-      stderr.writeln('Resetting..$_reset');
-      _counter.reset();
-    }
+    stderr.writeln('Removing..$_remove');
+    _counter.remove(int.tryParse(_remove));
     stderr.writeln('Counter Value.. ${_counter.value}');
   }
 }

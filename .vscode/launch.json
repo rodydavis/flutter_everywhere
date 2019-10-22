@@ -4,7 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "Flutter (Client)",
             "type": "dart",
@@ -18,7 +17,7 @@
             "program": "bin/server.dart"
         },
         {
-            "name": "Flutter (Command Line)",
+            "name": "Flutter (CLI)",
             "request": "launch",
             "type": "dart",
             "program": "bin/main.dart"

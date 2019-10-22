@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:shelf/shelf.dart' as shelf;
 
-import 'index.dart';
+import 'controllers/index.dart';
 import 'response.dart';
 
 class Router {

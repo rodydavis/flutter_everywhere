@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:args/command_runner.dart';
 
-import 'commands/index.dart';
+import 'cli/index.dart';
 
 main(List<String> arguments) {
   // 0 = Success
