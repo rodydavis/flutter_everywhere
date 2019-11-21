@@ -1,0 +1,33 @@
+{
+  "name": "Flutter Everywhere",
+  "version": "1.0",
+  "description": "Flutter on Google Chrome Extensions",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "build/web/index.html",
+    "default_icon": {
+      "16": "assets/images/icon/get_started16.png",
+      "32": "assets/images/icon/get_started32.png",
+      "48": "assets/images/icon/get_started48.png",
+      "128": "assets/images/icon/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/images/icon/get_started16.png",
+    "32": "assets/images/icon/get_started32.png",
+    "48": "assets/images/icon/get_started48.png",
+    "128": "assets/images/icon/get_started128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
