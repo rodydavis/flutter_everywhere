@@ -5,22 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter (mobile)",
+            "name": "Flutter (Client)",
             "type": "dart",
             "request": "launch",
-            "program": "mobile/lib/main.dart"
+            "program": "lib/main.dart"
         },
         {
-            "name": "Flutter (desktop)",
+            "name": "Flutter (Server)",
             "type": "dart",
             "request": "launch",
-            "program": "desktop/lib/main.dart"
+            "program": "bin/server.dart"
         },
         {
-            "name": "Flutter (web)",
+            "name": "Flutter (CLI)",
             "request": "launch",
             "type": "dart",
-            "program": "website/lib/main.dart"
+            "program": "bin/main.dart"
         }
     ]
 }

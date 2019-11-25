@@ -1,51 +1,3 @@
-# Flutter Everywhere
-
-[![Codemagic build status](https://api.codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5d02566b85769116ab87cc8f/status_badge.svg)](https://codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5d02566b85769116ab87cc8f/latest_build)
-
-## Overview
-
-- Flutter Client Project: iOS, Android, Web, MacOS, Windows, Linux..
-- Flutter Server Project: REST API to `lib/data/models` directory..
-- Flutter Command Line Project: CLI to `lib/data/models` directory..
-
-One project, multiple implementations.
-
-### Usage (REST API)
-
-run the project from VsCode with the server config selected.
-
-then you can make post or get requests too `http:0.0.0.0/8080`
-
-`http://0.0.0.0/8080/counter?count=22` yields:
-
-```json
-{
-    "status": "success",
-    "message": "Info",
-    "body": {
-        "counter": 22
-    }
-}
-```
-
-### Usage (CLI)
-
-`dart bin/main.dart counter --add 1` yields:
-
-```auto
-Counter Value.. 0
-Adding..1
-Removing..0
-Counter Value.. 1
-```
-
-### Usage (Client)
-
-Run Flutter Project Like Normal
-
-`flutter run`
-
-```dart
 import 'package:flutter/material.dart';
 
 import 'data/models/index.dart';
@@ -163,5 +115,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-```
