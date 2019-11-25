@@ -39,6 +39,23 @@ Removing..0
 Counter Value.. 1
 ```
 
+### Usage (dart2Native)
+
+Build Executable:
+
+- `dart2native bin/main.dart  -o counter`
+
+Run Executable:
+
+- `./counter counter --add 1`
+
+```auto
+Counter Value.. 0
+Adding..1
+Removing..0
+Counter Value.. 1
+```
+
 ### Usage (Client)
 
 Run Flutter Project Like Normal
