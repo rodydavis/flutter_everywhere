@@ -60,6 +60,8 @@ Counter Value.. 1
 
 Run Flutter Project Like Normal
 
+- Web includes an installable PWA
+
 `flutter run`
 
 ```dart
