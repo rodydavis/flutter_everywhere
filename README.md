@@ -2,6 +2,8 @@
 
 [![Codemagic build status](https://api.codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5d02566b85769116ab87cc8f/status_badge.svg)](https://codemagic.io/apps/5cd2d9cbc959181f99f3bc4b/5d02566b85769116ab87cc8f/latest_build)
 
+Web Demo (PWA): https://rodydavis.github.io/flutter_everywhere/#/
+
 ## Overview
 
 - Flutter Client Project: iOS, Android, Web, MacOS, Windows, Linux..
@@ -59,8 +61,6 @@ Counter Value.. 1
 ### Usage (Client)
 
 Run Flutter Project Like Normal
-
-- Web includes an installable PWA
 
 `flutter run`
 
