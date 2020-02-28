@@ -1,0 +1,22 @@
+{
+  "name": "flutter_everywhere",
+  "version": "1.0.0",
+  "description": "A minimal example of Flutter running everywhere",
+  "main": "debug.js",
+  "scripts": {
+    "build": "webdev build",
+    "web_server_js": "flutter run --web-port 8080 -d web-server",
+    "web_server_skia": "flutter run --release --dart-define=FLUTTER_WEB_USE_SKIA=true --web-port 8080 -d web-server",
+    "build_runner_serve": "pub run build_runner serve --hot-reload",
+    "dev": "run-p \"web_server_js\" \"start\"",
+    "dev_skia": "run-p \"web_server_skia\" \"start\"",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/  /electron-quick-start",
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

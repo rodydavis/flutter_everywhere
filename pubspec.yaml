@@ -17,4 +17,16 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - assets/images/
+    - assets/fonts/google_fonts/
+    - assets/fonts/google_fonts.json
+
   uses-material-design: true
+  fonts:
+    - family: GalleryIcons
+      fonts:
+        - asset: assets/fonts/GalleryIcons.ttf
+    - family: MaterialIcons
+      fonts:
+        - asset: assets/fonts/MaterialIcons-Regular.ttf

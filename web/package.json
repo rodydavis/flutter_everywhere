@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "productName": "Flutter App",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager .",
+    "package": "electron-packager . --all",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "electron-packager": "^14.0.4"
+  }
+}

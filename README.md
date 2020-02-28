@@ -2,6 +2,17 @@
 
 Web Demo (PWA): https://rodydavis.github.io/flutter_everywhere/#/
 
+## Targets
+
+- Web
+- Desktop (MacOS, Windows, Linux)
+- Android
+- iOS
+- Electron (MacOS, Windows, Linux)
+- CLI and dart2Native
+- Rest API
+- Chrome Extension
+
 ## Overview
 
 - Flutter Client Project: iOS, Android, Web, MacOS, Windows, Linux..
@@ -61,6 +72,11 @@ Counter Value.. 1
 Run Flutter Project Like Normal
 
 `flutter run`
+
+- For Electron:
+
+Run: `npm install`
+Run: `npm run dev` or `npm run dev_skia`
 
 ```dart
 import 'package:flutter/material.dart';

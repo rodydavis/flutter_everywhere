@@ -29,6 +29,8 @@
 .pub/
 /build/
 
+/node_modules/
+
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
