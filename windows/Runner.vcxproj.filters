@@ -18,17 +18,65 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="flutter_embedder_example.cpp">
+    <ClCompile Include="runner\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(IntDir)flutter_library\cpp_client_wrapper\engine_method_result.cc">
+    <ClCompile Include="runner\run_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\flutter_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\win32_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner\window_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flutter\generated_plugin_registrant.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(FLUTTER_EPHEMERAL_DIR)\cpp_client_wrapper\engine_method_result.cc">
       <Filter>Source Files\Client Wrapper</Filter>
     </ClCompile>
-    <ClCompile Include="$(IntDir)flutter_library\cpp_client_wrapper\flutter_window_controller.cc">
+    <ClCompile Include="$(FLUTTER_EPHEMERAL_DIR)\cpp_client_wrapper\flutter_view_controller.cc">
       <Filter>Source Files\Client Wrapper</Filter>
     </ClCompile>
-    <ClCompile Include="$(IntDir)flutter_library\cpp_client_wrapper\plugin_registrar.cc">
+    <ClCompile Include="$(FLUTTER_EPHEMERAL_DIR)\cpp_client_wrapper\plugin_registrar.cc">
       <Filter>Source Files\Client Wrapper</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="runner\run_loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\flutter_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\win32_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\window_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runner\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flutter\generated_plugin_registrant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="runner.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Runner.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\app_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
